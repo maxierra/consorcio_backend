@@ -1,8 +1,9 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "insert-email-config.js",
+  "main": "server.cjs",
   "scripts": {
+    "start": "node server.cjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,14 @@
     "url": "https://github.com/maxierra/consorcio_backend/issues"
   },
   "homepage": "https://github.com/maxierra/consorcio_backend#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.8",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "multer": "^2.0.0",
+    "nodemailer": "^7.0.3",
+    "puppeteer": "^24.9.0"
+  }
 }
